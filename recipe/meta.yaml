@@ -25,6 +25,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - mkdocs >=1.0.0
+    - polib >=1.1.0
     - importlib-resources >=5.0
 
 test:
