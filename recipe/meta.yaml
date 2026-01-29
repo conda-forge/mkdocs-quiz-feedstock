@@ -1,5 +1,5 @@
 {% set name = "mkdocs-quiz" %}
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mkdocs_quiz-{{ version }}.tar.gz
-  sha256: cdf55b795d0f62683a58b6fe44c328cd57a2519eacf477c0acd745dfcee59e67
+  sha256: 08ced7d2be278c67a6c45986c09457cd6e17663eaf39e8933a5231825c4f3c8f
 
 build:
   noarch: python
