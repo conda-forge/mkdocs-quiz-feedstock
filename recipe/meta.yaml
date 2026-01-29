@@ -1,5 +1,5 @@
 {% set name = "mkdocs-quiz" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mkdocs_quiz-{{ version }}.tar.gz
-  sha256: c984de40ab8495b45bb48a7c90127642d75ba27387682d42e85a9ddee31a54c3
+  sha256: 08ced7d2be278c67a6c45986c09457cd6e17663eaf39e8933a5231825c4f3c8f
 
 build:
   noarch: python
@@ -26,7 +26,9 @@ requirements:
     - python >={{ python_min }}
     - mkdocs >=1.0.0
     - polib >=1.1.0
-    - importlib-resources >=5.0
+    - questionary >=2.0.0
+    - requests >=2.25.0
+    - rich-click >=1.7.0
 
 test:
   imports:
