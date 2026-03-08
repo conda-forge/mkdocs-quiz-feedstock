@@ -14,7 +14,7 @@ build:
   entry_points:
     - mkdocs-quiz = mkdocs_quiz.cli:main
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - mkdocs >=1.0.0
+    - mkdocs >=1.5.0
     - polib >=1.1.0
     - questionary >=2.0.0
     - requests >=2.25.0
