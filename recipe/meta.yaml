@@ -1,5 +1,5 @@
 {% set name = "mkdocs-quiz" %}
-{% set version = "1.7.0" %}
+{% set version = "1.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/mkdocs_quiz-{{ version }}.tar.gz
-  sha256: 59a88cf0bc0b65b9042029aefa638a3efcaf86a9219555e7dd6541de6958bba8
+  sha256: 85428c39a37df116c3cfc4483f990ff182e869bd0b64fe823edbaec317626260
 
 build:
   noarch: python
